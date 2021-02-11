@@ -9,8 +9,10 @@ STATIC_DIR = "/app/papermerge/static"
 MEDIA_URL = "/media/"
 STATIC_URL = "/static/"
 
-OCR_DEFAULT_LANGUAGE = "eng"
+OCR_DEFAULT_LANGUAGE = "hun"
 
 OCR_LANGUAGES = {
+    "deu": "German",
     "eng": "English",
+    "hun": "Hungarian",
 }
